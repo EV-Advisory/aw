@@ -3,11 +3,13 @@
 .Rapp.history
 
 # Session Data files
-.RData
-
+*.RData
+*.Rmd
 # Example code in package build process
 *-Ex.R
-
+*DESKTOP-*
+*change-email*
+*git-commits*
 # Output files from R CMD build
 /*.tar.gz
 
@@ -34,3 +36,9 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+Dockerfile
+
+layouts/
+resources/
+data/
