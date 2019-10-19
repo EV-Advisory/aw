@@ -132,6 +132,25 @@ a:focus, a:hover {
   background-size: cover;
 }
 
+@media only screen and (min-width: 400px) {
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0 0;
+  text-align: center;
+  color: white;
+  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-color: #CCCCFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+}
+
+
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
