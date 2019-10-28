@@ -10,12 +10,14 @@ copyright: Arija Wellness
 date: "2018-09-09T00:00:00-00:00"
 # mapsapikey:
 download:
-  header: 3 Easy Steps
+  header: 3 Easy Steps 
   rename: 3 Easy Steps
   text: <p>1. Contact Us<br>2. Obtain Medical Cannabis Prescription<br>3. Gain Access to Medical Cannabis</p><a href="/#contact"
     class="btn btn-default btn-lg">Start Here</a>
 intro:
-  header: <img id="img-fluid responsive img-responsive" style="object-position:50% 50%;width:409px;height:395px;object-fit:cover" alt="Arija_symbol.png" data-type="image" src="https://static.wixstatic.com/media/e2ae91_61baadb5fcd448a395b693435f646b82~mv2_d_3200_3100_s_4_2.png/v1/fill/w_409,h_395,al_c,q_80,usm_0.66_1.00_0.01/Arija_symbol.webp">
+  header: <div class="col-lg-12 padding-0 ">
+                <img id="img-fluid img-responsive col-xs-12" style="object-position:50% 50%; width:409px; height:395px; object-fit:cover;" alt="Arija_symbol.png" data-type="image" src="img/full_symbol.png">
+            </div>
   text: <h2>Arija Wellness</h2><h5>Cannabinoid Education and Consultation</h5>
 #menu:
 #- name: Original
