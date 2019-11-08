@@ -25,4 +25,6 @@ intro:
 socialhandles:
   instagram: arijawellness
 title: Arija Wellness
+description: Cannabinoid Education and Consultation
+favicon: img/favicon.png
 ---
