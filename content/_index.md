@@ -5,7 +5,7 @@ about:
     <p>You can trust us to keep you up to date with clear and concise information. As things continue to develop in the cannabis industry through research and legislation, we will continue to maintain the highest quality of patient support when it comes to your medical cannabis as a treatment option.</p>
 contact:
   header: Get in touch with us today, we'll handle the rest!
-  text: <form  id="contact-form" class="mx-auto" name="contact" method="POST" netlify-honeypot="hpfield" netlify><p>960 Lawrence Ave West. Suite 106<br>Toronto, ON M6A 3B5</p><br>Tel - 416-546-6789 Fax - 416-352-7898<br><br><br><input type="text"class="form-control" name="name" value="Name"><br><br><input type="text"  class="form-control" name="email" value="E-mail Address"><br><br><input type="text" class="form-control" name="phone" value="Phone Number"><br><br><input class="btn btn-light" type="submit" value="Submit"></form>
+  text: <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="contact" /><p>960 Lawrence Ave West. Suite 106<br>Toronto, ON M6A 3B5</p><br>Tel - 416-546-6789 Fax - 416-352-7898<br><br><br><input type="text"class="form-control" name="name" value="Name"><br><br><input type="text"  class="form-control" name="email" value="E-mail Address"><br><br><input type="text" class="form-control" name="phone" value="Phone Number"><br><br><input class="btn btn-light" type="submit" value="Submit"></form>
 copyright: Arija Wellness
 date: "2018-09-09T00:00:00-00:00"
 # mapsapikey:
@@ -16,7 +16,7 @@ download:
     class="btn btn-default btn-lg">Start Here</a>
 intro:
   header: <div class="col-lg-12 padding-0 ">
-                <img id="img-fluid img-responsive col-xs-12" style="object-position:50% 50%; max-width:100%;width:auto\9; height:auto; object-fit:cover;" alt="Arija_symbol.png" data-type="image" src="img/full_symbol.png">
+                <img id="img-fluid img-responsive col-xs-12" style="object-position:50% 50%; max-width:100%;width:auto\9; height:auto; object-fit:cover;" alt="Arija_symbol.png" data-type="image" src="img/rsz_1full_symbol.png">
             </div>
   text: <h2>Arija Wellness</h2><h5>Cannabinoid Education and Consultation</h5>
 #menu:
