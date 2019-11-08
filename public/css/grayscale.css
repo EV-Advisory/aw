@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat center  scroll;
+  background: url("../img/intro-bg.jpg") no-repeat center center fixed;
   background-size: cover;
   background-color: #CCCCFF;
   -webkit-background-size: cover;
@@ -142,13 +142,31 @@ a:focus, a:hover {
   padding: 0 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat center scroll;
+  background: url("../img/intro-bg.jpg") no-repeat center center fixed;
   background-size: cover;
   background-color: #CCCCFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% 100%;
+}
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0 0;
+  text-align: center;
+  color: white;
+  background: url("../img/intro-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #CCCCFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 }
 .masthead .intro-body {
@@ -212,7 +230,8 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/downloads-bg.jpg") no-repeat center scroll;
+  background-size: cover;
   background-color: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
