@@ -1,0 +1,11 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Hugo Grayscale Theme"
+theme = "hugograyscale"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+#googleAnalytics = ""
+[params]
+    # Provide some metadata for search and indexing services
+    description = "Cannabinoid Education and Consultation"
+    author = "Arija Wellness Inc."
